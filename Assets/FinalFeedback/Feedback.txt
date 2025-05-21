@@ -1,0 +1,9 @@
+Coding Notes:
+- Interesting use of the same enemy objects and just respawning them in and a gradually increasing speed
+- But if you wanted to create more enemies for have more varied enemy patterns (not just the same 6 enemies) they should be seperate prefabs that spawn in with spawners and have the enemies destory themselves once they are killed (see "GeneralEnemySpawner" script)
+- To have the enemies move in a straight line you should've had the direction to the player and just consider the x-axis so its only moving left or right instead of the zombies moving abit down into the ground
+
+----------------------------------------------------
+Design Notes:
+- nice use of the timing to make it more punishing but you should have playtested it more to have a better feeling collision detection when attacking the enemies, something more forgiving 
+- still though balanced well enough and more polish it can have a feel of a combat rythm game 
